@@ -1,0 +1,18 @@
+.venv/
+__pycache__/
+lab/
+*.log
+.native-deps/
+build/
+dist/
+brushpass-identity.pem
+native-test-*/
+
+# Private credentials and local capture artifacts
+*.pem
+*.key
+*.pcap
+*.pcapng
+*.sqlite
+*.sqlite3
+

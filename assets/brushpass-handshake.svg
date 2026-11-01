@@ -1,0 +1,14 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" role="img" aria-labelledby="title desc">
+  <title id="title">BrushPass handshake</title>
+  <desc id="desc">Two angular, square-edged hands shaking, drawn in black and white.</desc>
+  <g fill="#fff" stroke="#000" stroke-width="8" stroke-linecap="square" stroke-linejoin="miter">
+    <!-- Left palm and the squared fingers wrapping around the grip. -->
+    <path d="M24 80 72 48H112L152 72 208 120V136L196 148H184V160L172 172H160V184L148 196H136L72 148H24Z"/>
+    <!-- Right palm and thumb cross over the other hand. -->
+    <path d="M296 80 248 48H216L184 40H164L116 88V104L128 116H144L164 96 216 140H248L296 144Z"/>
+    <!-- Straight finger folds. -->
+    <path d="m164 128 20 20m-36-4 24 28m-40-12 28 24" fill="none"/>
+    <!-- Squared wrists. -->
+    <path d="M24 64H64V156H24ZM256 64H296V156H256Z"/>
+  </g>
+</svg>

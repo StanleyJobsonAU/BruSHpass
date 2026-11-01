@@ -1,0 +1,10 @@
+{
+  "openssl": "3.6.5",
+  "vcpkg_commit": "d186940b2f0c4e8e5b4ff804af57d2a26fbfa091",
+  "windows_triplet": "x64-windows-static",
+  "windows_compiler": "MSVC 19.44.35217.0",
+  "linux_cross_compiler": "Zig 0.15.2 cc -target x86_64-linux-musl",
+  "zig_windows_archive_sha256": "3a0ed1e8799a2f8ce2a6e6290a9ff22e6906f8227865911fb7ddedc3cc14cb0c",
+  "linux_openssl_configure": ["linux-x86_64", "no-asm", "no-shared", "no-tests", "no-apps", "no-docs", "no-module", "no-legacy"],
+  "runtime_python_required": false
+}
