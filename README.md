@@ -61,6 +61,10 @@ export-client windows-x64 windows-client.exe 192.0.2.10
 
 Transfer the resulting binary over a trusted channel. On Linux, mark it executable and run it; on Windows, run the `.exe`. Then use `clients`, `use <client-id>`, and enter a command. See the [operator guide](docs/native.md) for firewall, session, command, and identity details.
 
+<img width="1104" height="617" alt="image" src="https://github.com/user-attachments/assets/bd266a0c-b7c4-42ee-baa6-b9a1e779ed3e" />
+<img width="1006" height="544" alt="image" src="https://github.com/user-attachments/assets/bb99839d-1c71-4fec-986c-d73b829fbc16" />
+
+
 ## Build from source
 
 The checked-in PowerShell build script reproduces the project's Windows and Linux x64 release builds. It needs Windows, Visual Studio 2022 C/C++ tools, CMake, Python 3, vcpkg with the pinned static OpenSSL triplet, Zig 0.15.2, and the Linux/musl OpenSSL static archives prepared under `.native-deps`. The exact versions and OpenSSL configuration are listed in [`native/dependencies.json`](native/dependencies.json). Dependencies are deliberately not vendored.
